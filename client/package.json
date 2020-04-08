@@ -1,0 +1,45 @@
+{
+  "name": "Merny",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --hot --port 3000",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deechris27/MERN_app.git"
+  },
+  "keywords": [],
+  "author": "Deepak <dd43030@gmail.com> (http://tidbit.c.la/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deechris27/MERN_app/issues"
+  },
+  "homepage": "https://github.com/deechris27/MERN_app#readme",
+  "dependencies": {
+    "@babel/cli": "7.8.4",
+    "@babel/core": "7.9.0",
+    "@babel/plugin-transform-runtime": "7.9.0",
+    "@babel/preset-env": "7.9.5",
+    "@babel/preset-react": "7.9.4",
+    "@babel/runtime": "7.9.2",
+    "axios": "0.19.2",
+    "babel-loader": "8.1.0",
+    "css-loader": "3.5.1",
+    "html-webpack-plugin": "4.0.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-redux": "7.2.0",
+    "react-router-dom": "5.1.2",
+    "redux": "4.0.5",
+    "style-loader": "1.1.3",
+    "webpack": "4.42.1",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.10.3"
+  },
+  "proxy":{
+    "/": {"target":"http://localhost:5000"}
+  }
+}

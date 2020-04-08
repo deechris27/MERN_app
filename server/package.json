@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:server": "node server",
+    "start:client": "npm start --prefix ../client",
+    "start:all": "concurrently \"npm run start:server\"\"npm run start:client\""
+  },
+  "keywords": [],
+  "author": "Deepak <dd43030@gmail.com> (http://tidbit.c.la/)",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.19.2",
+    "chokidar": "3.3.1",
+    "concurrently": "5.1.0",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "forever": "2.0.0"
+  }
+}
