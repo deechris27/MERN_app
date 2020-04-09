@@ -39,7 +39,9 @@
     "webpack-cli": "3.3.11",
     "webpack-dev-server": "3.10.3"
   },
-  "proxy":{
-    "/": {"target":"http://localhost:5000"}
+  "proxy": {
+    "/": {
+      "target": "http://localhost:5000"
+    }
   }
 }
