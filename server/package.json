@@ -12,7 +12,7 @@
   "author": "Deepak <dd43030@gmail.com> (http://tidbit.c.la/)",
   "license": "MIT",
   "dependencies": {
-    "axios": "0.19.2",
+    "axios": "1.6.0",
     "chokidar": "3.3.1",
     "concurrently": "5.1.0",
     "cors": "2.8.5",
